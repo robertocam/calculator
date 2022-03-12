@@ -1,0 +1,41 @@
+html, body {
+  background-color: #303030;
+}
+#container {
+  margin: 0;
+  background-color: #303030;
+}
+#container h1 {
+  color: #fff;
+  text-align: center;
+  margin: 30px auto 50px;
+}
+#calculadora{
+  width: 25rem;
+  margin: 0 auto;
+  border: 10px solid #fff;
+  border-radius: 10px;
+}
+#calculadora .card-header {
+background-color: #808080;
+margin-bottom: 10px
+}
+#calculadora .card-body {
+background-color: #010101;
+}
+#calculadora #display {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: right;
+}
+#calculadora button {
+  margin: 5px;
+  height: 3em;
+}
+#calculadora .button-text{
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  width: 100%;
+}
